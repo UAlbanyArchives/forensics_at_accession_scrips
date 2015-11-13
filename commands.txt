@@ -1,0 +1,10 @@
+to get raw MFT
+
+.\ifind /path/file.ext \\.\c:
+.\istat \\.\c: addess
+.\icat \\.\c: addess-48-4
+
+.\MFTRCRD C:\Projects\test2.py -d indxdump=off 1024 -s
+
+
+C:\Projects\fsTools\MftRcrd-master\MFTRCRD.exe C:\Projects\test2.py -d indxdump=off 1024 -s > C:\Projects\outTest.txt

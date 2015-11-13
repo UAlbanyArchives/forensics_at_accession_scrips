@@ -1,0 +1,88 @@
+ran MFTRCRD.exe: 
+Starting MFTRCRD by Joakim Schicht
+Version 1.0.0.37
+
+Target is a File
+Filesystem on C: is NTFS
+File IndexNumber: 418561
+BytesPerSector:  512
+SectorsPerCluster:  8
+ReservedSectors:  0
+SectorsPerTrack:  63
+NumberOfHeads:  255
+HiddenSectors:  206848
+TotalSectors:  976564223
+LogicalClusterNumberforthefileMFT:  786432
+LogicalClusterNumberforthefileMFTMirr:  16
+MFT Record Size: 1024
+
+Record number: 418561 found at disk offset: 0x0000001BC8E89400
+
+Found attributes: 
+$STANDARD_INFORMATION (1)
+$FILE_NAME (1)
+$DATA (1)
+
+Record header info: 
+Offst to update sequence number: 48
+Update sequence array size (words): 3
+$LogFile sequence number (LSN): 13711955478
+Sequence number: 15
+Hard link count: 1
+Offset to first Attribute: 115
+Flags: FILE+ALLOCATED
+Real size of the FILE record: 344
+Allocated size of the FILE record: 1024
+Base record MFT Ref: 0
+Base record MFT Ref SequenceNo: 0
+Next Attribute Id: 0x0004
+File reference (MFT Record number): 418561
+Update Sequence Number (a): 1A00
+Update Sequence Array (a): 00000000
+
+$STANDARD_INFORMATION 1:
+File Create Time (CTime): 2015-10-20 13:40:47:010:6144
+File Modified Time (ATime): 2015-10-20 13:57:12:762:9689
+MFT Entry modified Time (MTime): 2015-10-20 13:57:12:762:9689
+File Last Access Time (RTime): 2015-10-20 13:40:47:027:6178
+DOS File Permissions: archive
+Max Versions: 0
+Version Number: 0
+Class ID: 0
+Owner ID: 0
+Security ID: 2866
+Quota Charged: 0
+USN: 3219407008
+
+$FILE_NAME 1:
+Parent MFTReference: 397315
+ParentSequenceNo: 7
+File Create Time (CTime): 2015-10-20 13:40:47:010:6144
+File Modified Time (ATime): 2015-10-20 13:40:47:027:6178
+MFT Entry modified Time (MTime): 2015-10-20 13:40:47:027:6178
+File Last Access Time (RTime): 2015-10-20 13:40:47:027:6178
+AllocSize: 0
+RealSize: 0
+EaSize: 0
+Flags: archive
+NameLength: 8
+NameType: DOS+WIN32
+NameSpace: 3
+FileName: test2.py
+
+$DATA 1:
+Non-resident flag: 01
+Name length: 0
+Flags: 
+Attribute Id: 0003
+Non-Resident - Starting VCN: 0
+Non-Resident - Last VCN: 0
+Non-Resident - Offset to the Data Runs: 64
+Non-Resident - Compression Unit Size: 0
+Non-Resident - Allocated size of the attribute: 4096
+Non-Resident - Real size of the attribute: 4038
+Non-Resident - Initialized data size of the stream: 4038
+Non-Resident - DataRuns: 21011C5D00F8FFFF
+The Attribute's Name: 
+
+Job took 0.6 seconds
